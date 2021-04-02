@@ -1,0 +1,25 @@
+body {
+    background-color: #d2d2d2;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0,0, 0.6);
+}
+.nav-conteudo{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.nav-item{
+    width: 20%;
+    border: 2px solid blue;
+    margin-inline: 10px;
+}
+.conteudo-linha{
+    display: inline-block;
+}
