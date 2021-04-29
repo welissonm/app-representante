@@ -6,16 +6,36 @@
   <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
   <title>Painel de Vendas</title>
   <link href="../style.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
-  <nav>
-    <ul class="nav-conteudo">
-      <li class="conteudo-linha nav-item"><a href="../index.html" id="nav-clientes">Painel de vendas</a></li>
-      <li class="conteudo-linha nav-item"><a href="clientes.html" id="nav-produto">Clientes</a></li>
-      <li class="conteudo-linha nav-item"><a href="vendas.html" id="nav-vendas">Vendas</a></li>
-    </ul>
-  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3f5d63;">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barranav" aria-controls="barranav" aria-expanded="false" aria-label="Toggle navegation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a href="#" class="navbar-brand"><h3>JM-Vendas</h3></a>
+			<div class="collapse navbar-collapse" id="barranav">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a href="../index.html" class="nav-link active" aria-current="page">Painel de Vendas</a>
+					</li>
+					<li class="nav-item">
+						<a href="clientes.html" class="nav-link active" aria-current="page">Clientes</a>
+					</li>
+					<li class="nav-item">
+						<a href="vendas.html" class="nav-link active" aria-current="page">Vendas</a>
+					</li>
+          <li class="nav-item">
+						<a href="contatos.html" class="nav-link active" aria-current="page">Contatos</a>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+
+	</nav>
   <main>
     <h1>Produtos</h1>
     <section>

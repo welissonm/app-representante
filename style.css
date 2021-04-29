@@ -15,11 +15,11 @@ a {
     padding: 10px;
     text-align: center;
 }
-.nav-item{
+/*.nav-item{
     width: 20%;
     border: 2px solid blue;
     margin-inline: 10px;
-}
+}*/
 .conteudo-linha{
     display: inline-block;
 }
